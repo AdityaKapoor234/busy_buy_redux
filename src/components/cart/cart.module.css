@@ -1,0 +1,18 @@
+.purchaseButton {
+    background: #7064e5;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    padding: 1.5px 0rem;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+}

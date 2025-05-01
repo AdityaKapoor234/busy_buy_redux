@@ -1,0 +1,95 @@
+.productDetailContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    padding: 16px 1.5rem;
+}
+
+.img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 20vw;
+}
+
+.name {
+    color: #224957;
+    font-family: Inter, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+
+.price {
+    color: orange;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    justify-content: start;
+    padding: 8px 0;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.price span {
+    color: #265595;
+    text-transform: capitalize;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3.5rem;
+    gap: 4rem;
+}
+
+.button {
+    color: #fff;
+    font-size: 20px;
+    padding: .75rem 3rem;
+    transition: all .3s ease-in-out;
+    background: #7064e5;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.removeButton {
+    color: #fff;
+    font-size: 20px;
+    padding: .75rem 3rem;
+    transition: all .3s ease-in-out;
+    background: #f14444;
+    border: 1px solid #f14444;
+    border-radius: 6px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.cartButtonRow {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.cartButton {
+    fill: #7064e5;
+    cursor: pointer;
+}
+
+.cartQuantity {
+    color: orange;
+    font-size: 24px;
+    font-weight: 700;
+}
