@@ -1,25 +1,3 @@
-// // Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// import { getFirestore } from "firebase/firestore";
-// // TODO: Add SDKs for Firebase products that you want to use
-// // https://firebase.google.com/docs/web/setup#available-libraries
-
-// // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDy4ZJAmwHdhP4eMDpfDWqY5DuvP5tLlWw",
-//   authDomain: "busy-buy-cn.firebaseapp.com",
-//   projectId: "busy-buy-cn",
-//   storageBucket: "busy-buy-cn.firebasestorage.app",
-//   messagingSenderId: "1076148898091",
-//   appId: "1:1076148898091:web:7b42dd55281187cdd65d6e"
-// };
-
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-
-// // Initialize Cloud Firestore and get a reference to the service
-// export const db = getFirestore(app);
-
 // firebase.js - Firebase configuration and initialization
 import { initializeApp } from "firebase/app";
 import { getFirestore, enableIndexedDbPersistence } from "firebase/firestore";
