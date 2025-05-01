@@ -18,7 +18,7 @@ import SignUp from "./components/signup/SignUp";
 import ForgotPassword from "./components/forgot-password/ForgotPassword";
 import Cart from "./components/cart/Cart";
 import MyOrders from "./components/my-orders/MyOrders";
-import ProductDetails from "./Components/product-details/ProductDetails";
+import ProductDetails from "./components/product-details/ProductDetails";
 
 // Toast notification container
 import { ToastContainer } from 'react-toastify';
